@@ -4,7 +4,7 @@ public class Reader {
 
     public Book choiceBook(Book[] arrayBooks) {
         Random random = new Random();
-        int i = random.nextInt(6);
+        int i = random.nextInt(arrayBooks.length);
         return arrayBooks[i];
     }
 
